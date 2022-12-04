@@ -45,7 +45,7 @@ function match2(vs) {
     }
 }
 
-let result = require("fs").readFileSync("./input", "utf8")
+let result = require("fs").readFileSync("./input.txt", "utf8")
     .split("\n")
     .reduce(([sum1, sum2], vs) => [sum1 += match1(vs), sum2 += match2(vs)], [0, 0])
 

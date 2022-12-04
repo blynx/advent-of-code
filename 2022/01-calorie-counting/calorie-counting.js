@@ -1,5 +1,5 @@
 let result = 
-    require("fs").readFileSync("./input", "utf8")
+    require("fs").readFileSync("./input.txt", "utf8")
         .split("\n\n")
         .map(elf => elf.split("\n"))
         .map(elf => elf.reduce((sum, calories) => { return sum += parseInt(calories) }, 0))

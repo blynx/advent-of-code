@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # append newline for correct non zero length check at end of file
-input="$(<input)"$'\n'
+input="$(<input.txt)"$'\n'
 
 max=0
 top3=(0 0 0)

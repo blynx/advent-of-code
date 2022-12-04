@@ -30,7 +30,7 @@ function makeRucksackInspector(store) {
 }
 
 require("readline").createInterface({
-    input: require("fs").createReadStream("./input"),
+    input: require("fs").createReadStream("./input.txt"),
     output: process.stdout,
     terminal: false
 })
