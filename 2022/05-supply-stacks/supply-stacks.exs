@@ -7,7 +7,7 @@ defmodule SupplyStacks do
     [raw_aisles | raw_stacks] = stacks_picture |> String.split("\n") |> :lists.reverse()
 
     instrunction_list = String.split(instructions_blob, "\n")
-    stack_map = fill_stack_map(new_stack_map(raw_aisles), raw_stacks)
+    stack_map = new_stack_map(raw_aisles) |> fill_stack_map(raw_stacks)
 
     process(stack_map, instrunction_list)
   end
