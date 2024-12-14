@@ -1,0 +1,2 @@
+defmodule PipeMaze do
+end
