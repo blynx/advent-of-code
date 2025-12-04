@@ -1,16 +1,26 @@
+# editors, language servers
 .vscode/
 .elixir_ls/
 
+# node
 node_modules/
 .alpackages/
 
-build/Release
-_build/
+# swift
+.DS_Store
 .build/
+Packages/
+xcuserdata/
+DerivedData/
 .swiftpm/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
 
+# etc
 .snapshots/
 
+# logs
 logs
 *.log
 npm-debug.log*
