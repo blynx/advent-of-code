@@ -8,7 +8,7 @@ struct GiftShop {
 		case AdvancedStringAlgo
 		case AdvancedNumericAlgo
 		
-		func testIdIsSimple(_ id: Int) -> Bool {
+		func testIdIsSilly(_ id: Int) -> Bool {
 			switch self {
 			case .Simple: return GiftShop.isSillyIdSimple(id)
 			case .AdvancedStringAlgo: return GiftShop.isSillyIdAdvancedStringAlgo(id)
@@ -30,7 +30,7 @@ struct GiftShop {
 		var sillyIds: [Int] = []
 		productIdRanges.forEach { productIdRange in
 			productIdRange.forEach { productId in
-				if sillyIdCriteria.testIdIsSimple(productId) {
+				if sillyIdCriteria.testIdIsSilly(productId) {
 					sillyIds.append(productId)
 				}
 			}
