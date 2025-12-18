@@ -1,29 +1,5 @@
-# editors, language servers
-.vscode/
-.elixir_ls/
+# aoc
 
-# node
-node_modules/
-.alpackages/
-
-# swift
-.DS_Store
-.build/
-Packages/
-xcuserdata/
-DerivedData/
-.swiftpm/
-.swiftpm/configuration/registries.json
-.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
-.netrc
-
-# etc
-.snapshots/
-
-# logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
+*Input*.txt
+*input*.txt
+*.aoc
