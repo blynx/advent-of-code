@@ -7,14 +7,13 @@ let package = Package(
     targets: [
         .target(
             name: "Day00_BoilerPlate"
-		),
-		.testTarget(
-			name: "Day00_BoilerPlateTests",
-			dependencies: ["Day00_BoilerPlate"],
-			resources: [
-				.embedInCode("Resources/Input.txt"),
-				.embedInCode("Resources/InputSmall.txt")
-			]
-		)
+        ),
+        .testTarget(
+            name: "Day00_BoilerPlateTests",
+            dependencies: ["Day00_BoilerPlate"],
+            resources: [
+                .embedInCode("Resources/Input.txt")
+            ]
+        )
     ]
 )

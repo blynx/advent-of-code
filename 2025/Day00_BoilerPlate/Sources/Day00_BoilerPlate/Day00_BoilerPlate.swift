@@ -1,7 +1,9 @@
 import Foundation
 
 struct BoilerPlate {
-	static func parse(rawInput: String) {
-
-	}
+    static func parse(rawInput: String) { }
+    
+    func start() {
+        
+    }
 }
